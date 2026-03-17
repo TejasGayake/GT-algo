@@ -1,0 +1,771 @@
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+    self.write_and_convert(text)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\site-packages\colorama\ansitowin32.py", line 205, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\site-packages\colorama\ansitowin32.py", line 210, in write_plain_text
+    self.wrapped.write(text[start:end])
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 18: character maps to <undefined>
+Call stack:
+  File "G:\projects\final_trading\Project2\run.py", line 14, in <module>
+    from sw_excelv12 import LiveFeedApp
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "G:\projects\final_trading\Project2\sw_excelv12.py", line 22, in <module>
+    from angel_api.websocket_wrapper import start_stream, subscribe
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "G:\projects\final_trading\Project2\angel_api\websocket_wrapper.py", line 19, in <module>
+    logger.info(f"\u2705 Found swv7.py")
+Message: '\u2705 Found swv7.py'
+Arguments: ()
+10:43:36 - INFO -    Available functions: ['API_KEY', 'CLIENT_ID', 'PASSWORD', 'SmartConnect', 'SmartWebSocketV2', 'TOTP_SECRET', 'auth_token', 'connected', 'datetime', 'feed_token', 'get_candles', 'get_quote', 'logger', 'logging', 'login', 'pd', 'pyotp', 'reconnect_thread', 'refresh_token', 'smartApi', 'start_stream', 'subscribe', 'sws', 'test_token', 'threading', 'time', 'timedelta', 'unsubscribe']
+10:43:36 - INFO - WebSocketWrapper initialized
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+    self.write_and_convert(text)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\site-packages\colorama\ansitowin32.py", line 205, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\site-packages\colorama\ansitowin32.py", line 210, in write_plain_text
+    self.wrapped.write(text[start:end])
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 18: character maps to <undefined>
+Call stack:
+  File "G:\projects\final_trading\Project2\run.py", line 19, in <module>
+    app = LiveFeedApp()
+  File "G:\projects\final_trading\Project2\sw_excelv12.py", line 34, in __init__
+    self.symbol_loader.load()
+  File "G:\projects\final_trading\Project2\utils\symbol_loader.py", line 42, in load
+    self.logger.info(f"\u2705 Loaded {len(self.token_to_symbol)} symbol mappings from CSV")
+Message: '\u2705 Loaded 205 symbol mappings from CSV'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+    self.write_and_convert(text)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\site-packages\colorama\ansitowin32.py", line 205, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\site-packages\colorama\ansitowin32.py", line 210, in write_plain_text
+    self.wrapped.write(text[start:end])
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4cb' in position 18: character maps to <undefined>
+Call stack:
+  File "G:\projects\final_trading\Project2\run.py", line 19, in <module>
+    app = LiveFeedApp()
+  File "G:\projects\final_trading\Project2\sw_excelv12.py", line 34, in __init__
+    self.symbol_loader.load()
+  File "G:\projects\final_trading\Project2\utils\symbol_loader.py", line 43, in load
+    self.logger.info(f"\U0001f4cb First 5 mappings: {list(self.token_to_symbol.items())[:5]}")
+Message: "\U0001f4cb First 5 mappings: [('5097', 'ETERNAL-EQ'), ('4503', 'MPHASIS-EQ'), ('11351', 'PETRONET-EQ'), ('25049', 'PREMIERENE-EQ'), ('21690', 'DIXON-EQ')]"
+Arguments: ()
+10:43:36 - INFO - Symbol master set
+10:43:36 - INFO - ============================================================
+10:43:36 - INFO -  Starting Live Feed Application v12
+10:43:36 - INFO - ============================================================
+10:43:36 - INFO - Loading symbol master...
+10:43:36 - INFO - Loaded 8 common symbols
+10:43:36 - INFO - Initializing Excel...
+10:43:38 - INFO - Opened existing file: Live_Feed_Data.xlsx
+10:43:38 - INFO - Using existing LIVE sheet
+10:43:38 - INFO - Using existing Instruments sheet
+10:43:38 - INFO - LIVE sheet headers formatted
+10:43:38 - INFO - Instruments sheet headers formatted
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+    self.write_and_convert(text)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\site-packages\colorama\ansitowin32.py", line 205, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\site-packages\colorama\ansitowin32.py", line 210, in write_plain_text
+    self.wrapped.write(text[start:end])
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejas\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 18: character maps to <undefined>
+Call stack:
+  File "G:\projects\final_trading\Project2\run.py", line 21, in <module>
+    app.start()
+  File "G:\projects\final_trading\Project2\sw_excelv12.py", line 85, in start
+    if not self.excel_mgr.initialize():
+  File "G:\projects\final_trading\Project2\excel\simple_manager.py", line 147, in initialize
+    self.logger.info("\u2705 Excel manager initialized")
+Message: '\u2705 Excel manager initialized'
+Arguments: ()
+10:43:39 - INFO - Found 0 tokens: set()
+10:43:39 - INFO - Starting tick processor...
+10:43:39 - INFO - Processing loop started
+10:43:39 - INFO - Tick processor started
+10:43:39 - INFO - Active tokens updated: 0 - set()
+10:43:39 - INFO - Starting WebSocket connection...
+10:43:39 - INFO - Waiting for WebSocket to connect...
+10:43:39 - INFO - Starting WebSocket stream...
+10:43:39 - INFO - Using original swv7.start_stream
+INFO:swv7:Starting WebSocket stream...
+10:43:39 - INFO - WebSocket thread started
+[I 260306 10:43:39 smartConnect:124] in pool
+INFO:swv7:Logging in with TOTP: 971726
+INFO:swv7:\u2705 Login successful
+INFO:websocket:Websocket connected
+INFO:swv7:\U0001f7e2 WebSocket connected
+10:43:44 - INFO - Starting backup scheduler...
+10:43:44 - INFO - Backup scheduler running
+10:43:44 - INFO - Scheduled backup started
+10:43:44 - INFO - Auto-backup started
+10:43:44 - INFO - System ready!
+10:43:44 - INFO - Add tokens to Instruments sheet (column A)
+10:43:44 - INFO -  Got 0 updates from processor
+10:43:44 - INFO -  Latest data for 0 tokens
+10:43:44 - INFO - ----------------------------------------
+10:43:44 - INFO -  Application Status:
+10:43:44 - INFO -    Active Tokens: 0
+10:43:44 - INFO -    Excel Rows: 0
+10:43:44 - INFO -    Total Ticks: 0
+10:43:44 - INFO -     Market: OPEN - 10:43:44
+10:43:44 - INFO -    API Calls: 0
+10:43:44 - INFO - ----------------------------------------
+10:43:44 - INFO -  Got 0 updates from processor
+10:43:44 - INFO -  Latest data for 0 tokens
+10:43:44 - INFO -  Got 0 updates from processor
+10:43:44 - INFO -  Latest data for 0 tokens
+10:43:44 - INFO -  Got 0 updates from processor
+10:43:44 - INFO -  Latest data for 0 tokens
+10:43:44 - INFO -  Got 0 updates from processor
+10:43:44 - INFO -  Latest data for 0 tokens
+10:43:44 - INFO -  Got 0 updates from processor
+10:43:44 - INFO -  Latest data for 0 tokens
+10:43:44 - INFO -  Got 0 updates from processor
+10:43:44 - INFO -  Latest data for 0 tokens
+10:43:45 - INFO -  Got 0 updates from processor
+10:43:45 - INFO -  Latest data for 0 tokens
+10:43:45 - INFO -  Got 0 updates from processor
+10:43:45 - INFO -  Latest data for 0 tokens
+10:43:45 - INFO -  Got 0 updates from processor
+10:43:45 - INFO -  Latest data for 0 tokens
+10:43:45 - INFO -  Got 0 updates from processor
+10:43:45 - INFO -  Latest data for 0 tokens
+10:43:45 - INFO -  Got 0 updates from processor
+10:43:45 - INFO -  Latest data for 0 tokens
+10:43:45 - INFO -  Got 0 updates from processor
+10:43:45 - INFO -  Latest data for 0 tokens
+10:43:45 - INFO -  Got 0 updates from processor
+10:43:45 - INFO -  Latest data for 0 tokens
+10:43:45 - INFO -  Got 0 updates from processor
+10:43:45 - INFO -  Latest data for 0 tokens
+10:43:45 - INFO -  Got 0 updates from processor
+10:43:45 - INFO -  Latest data for 0 tokens
+10:43:45 - INFO -  Got 0 updates from processor
+10:43:45 - INFO -  Latest data for 0 tokens
+10:43:46 - INFO -  Got 0 updates from processor
+10:43:46 - INFO -  Latest data for 0 tokens
+10:43:46 - INFO -  Got 0 updates from processor
+10:43:46 - INFO -  Latest data for 0 tokens
+10:43:46 - INFO -  Got 0 updates from processor
+10:43:46 - INFO -  Latest data for 0 tokens
+10:43:46 - INFO -  Got 0 updates from processor
+10:43:46 - INFO -  Latest data for 0 tokens
+10:43:46 - INFO -  Got 0 updates from processor
+10:43:46 - INFO -  Latest data for 0 tokens
+10:43:46 - INFO -  Got 0 updates from processor
+10:43:46 - INFO -  Latest data for 0 tokens
+10:43:46 - INFO -  Got 0 updates from processor
+10:43:46 - INFO -  Latest data for 0 tokens
+10:43:46 - INFO -  Got 0 updates from processor
+10:43:46 - INFO -  Latest data for 0 tokens
+10:43:46 - INFO -  Got 0 updates from processor
+10:43:46 - INFO -  Latest data for 0 tokens
+10:43:46 - INFO -  Got 0 updates from processor
+10:43:46 - INFO -  Latest data for 0 tokens
+10:43:47 - INFO -  Got 0 updates from processor
+10:43:47 - INFO -  Latest data for 0 tokens
+10:43:47 - INFO -  Got 0 updates from processor
+10:43:47 - INFO -  Latest data for 0 tokens
+10:43:47 - INFO -  Got 0 updates from processor
+10:43:47 - INFO -  Latest data for 0 tokens
+10:43:47 - INFO -  Got 0 updates from processor
+10:43:47 - INFO -  Latest data for 0 tokens
+10:43:47 - INFO -  Got 0 updates from processor
+10:43:47 - INFO -  Latest data for 0 tokens
+10:43:47 - INFO -  Got 0 updates from processor
+10:43:47 - INFO -  Latest data for 0 tokens
+10:43:47 - INFO -  Got 0 updates from processor
+10:43:47 - INFO -  Latest data for 0 tokens
+10:43:47 - INFO -  Got 0 updates from processor
+10:43:47 - INFO -  Latest data for 0 tokens
+10:43:47 - INFO -  Got 0 updates from processor
+10:43:47 - INFO -  Latest data for 0 tokens
+10:43:47 - INFO -  Got 0 updates from processor
+10:43:47 - INFO -  Latest data for 0 tokens
+10:43:48 - INFO -  Got 0 updates from processor
+10:43:48 - INFO -  Latest data for 0 tokens
+10:43:48 - INFO -  Got 0 updates from processor
+10:43:48 - INFO -  Latest data for 0 tokens
+10:43:48 - INFO -  Got 0 updates from processor
+10:43:48 - INFO -  Latest data for 0 tokens
+10:43:48 - INFO -  Got 0 updates from processor
+10:43:48 - INFO -  Latest data for 0 tokens
+10:43:48 - INFO -  Got 0 updates from processor
+10:43:48 - INFO -  Latest data for 0 tokens
+10:43:48 - INFO -  Got 0 updates from processor
+10:43:48 - INFO -  Latest data for 0 tokens
+10:43:48 - INFO -  Got 0 updates from processor
+10:43:48 - INFO -  Latest data for 0 tokens
+10:43:48 - INFO -  Got 0 updates from processor
+10:43:48 - INFO -  Latest data for 0 tokens
+10:43:48 - INFO -  Got 0 updates from processor
+10:43:48 - INFO -  Latest data for 0 tokens
+10:43:49 - INFO -  Got 0 updates from processor
+10:43:49 - INFO -  Latest data for 0 tokens
+10:43:49 - INFO -  Got 0 updates from processor
+10:43:49 - INFO -  Latest data for 0 tokens
+10:43:49 - INFO -  Got 0 updates from processor
+10:43:49 - INFO -  Latest data for 0 tokens
+10:43:49 - INFO -  Got 0 updates from processor
+10:43:49 - INFO -  Latest data for 0 tokens
+10:43:49 - INFO -  Got 0 updates from processor
+10:43:49 - INFO -  Latest data for 0 tokens
+10:43:49 - INFO -  Got 0 updates from processor
+10:43:49 - INFO -  Latest data for 0 tokens
+10:43:49 - INFO -  Got 0 updates from processor
+10:43:49 - INFO -  Latest data for 0 tokens
+10:43:49 - INFO -  Got 0 updates from processor
+10:43:49 - INFO -  Latest data for 0 tokens
+10:43:49 - INFO -  Got 0 updates from processor
+10:43:49 - INFO -  Latest data for 0 tokens
+10:43:50 - INFO -  Got 0 updates from processor
+10:43:50 - INFO -  Latest data for 0 tokens
+10:43:50 - INFO -  Got 0 updates from processor
+10:43:50 - INFO -  Latest data for 0 tokens
+10:43:50 - INFO -  Got 0 updates from processor
+10:43:50 - INFO -  Latest data for 0 tokens
+10:43:50 - INFO -  Got 0 updates from processor
+10:43:50 - INFO -  Latest data for 0 tokens
+10:43:50 - INFO -  Got 0 updates from processor
+10:43:50 - INFO -  Latest data for 0 tokens
+10:43:50 - INFO -  Got 0 updates from processor
+10:43:50 - INFO -  Latest data for 0 tokens
+10:43:50 - INFO -  Got 0 updates from processor
+10:43:50 - INFO -  Latest data for 0 tokens
+10:43:50 - INFO -  Got 0 updates from processor
+10:43:50 - INFO -  Latest data for 0 tokens
+10:43:50 - INFO -  Got 0 updates from processor
+10:43:50 - INFO -  Latest data for 0 tokens
+10:43:50 - INFO -  Got 0 updates from processor
+10:43:50 - INFO -  Latest data for 0 tokens
+10:43:51 - INFO -  Got 0 updates from processor
+10:43:51 - INFO -  Latest data for 0 tokens
+10:43:51 - INFO -  Got 0 updates from processor
+10:43:51 - INFO -  Latest data for 0 tokens
+10:43:51 - INFO -  Got 0 updates from processor
+10:43:51 - INFO -  Latest data for 0 tokens
+10:43:51 - INFO -  Got 0 updates from processor
+10:43:51 - INFO -  Latest data for 0 tokens
+10:43:51 - INFO -  Got 0 updates from processor
+10:43:51 - INFO -  Latest data for 0 tokens
+10:43:51 - INFO -  Got 0 updates from processor
+10:43:51 - INFO -  Latest data for 0 tokens
+10:43:51 - INFO -  Got 0 updates from processor
+10:43:51 - INFO -  Latest data for 0 tokens
+10:43:51 - INFO -  Got 0 updates from processor
+10:43:51 - INFO -  Latest data for 0 tokens
+10:43:51 - INFO -  Got 0 updates from processor
+10:43:51 - INFO -  Latest data for 0 tokens
+10:43:52 - INFO -  Got 0 updates from processor
+10:43:52 - INFO -  Latest data for 0 tokens
+10:43:52 - INFO -  Got 0 updates from processor
+10:43:52 - INFO -  Latest data for 0 tokens
+10:43:52 - INFO -  Got 0 updates from processor
+10:43:52 - INFO -  Latest data for 0 tokens
+10:43:52 - INFO -  Got 0 updates from processor
+10:43:52 - INFO -  Latest data for 0 tokens
+10:43:52 - INFO -  Got 0 updates from processor
+10:43:52 - INFO -  Latest data for 0 tokens
+10:43:52 - INFO -  Got 0 updates from processor
+10:43:52 - INFO -  Latest data for 0 tokens
+10:43:52 - INFO -  Got 0 updates from processor
+10:43:52 - INFO -  Latest data for 0 tokens
+10:43:52 - INFO -  Got 0 updates from processor
+10:43:52 - INFO -  Latest data for 0 tokens
+10:43:52 - INFO -  Got 0 updates from processor
+10:43:52 - INFO -  Latest data for 0 tokens
+10:43:52 - INFO -  Got 0 updates from processor
+10:43:52 - INFO -  Latest data for 0 tokens
+10:43:53 - INFO -  Got 0 updates from processor
+10:43:53 - INFO -  Latest data for 0 tokens
+10:43:53 - INFO -  Got 0 updates from processor
+10:43:53 - INFO -  Latest data for 0 tokens
+10:43:53 - INFO -  Got 0 updates from processor
+10:43:53 - INFO -  Latest data for 0 tokens
+10:43:53 - INFO -  Got 0 updates from processor
+10:43:53 - INFO -  Latest data for 0 tokens
+10:43:53 - INFO -  Got 0 updates from processor
+10:43:53 - INFO -  Latest data for 0 tokens
+10:43:53 - INFO -  Got 0 updates from processor
+10:43:53 - INFO -  Latest data for 0 tokens
+10:43:53 - INFO -  Got 0 updates from processor
+10:43:53 - INFO -  Latest data for 0 tokens
+10:43:53 - INFO -  Got 0 updates from processor
+10:43:53 - INFO -  Latest data for 0 tokens
+10:43:53 - INFO -  Got 0 updates from processor
+10:43:53 - INFO -  Latest data for 0 tokens
+10:43:53 - INFO -  Got 0 updates from processor
+10:43:53 - INFO -  Latest data for 0 tokens
+10:43:54 - INFO -  Got 0 updates from processor
+10:43:54 - INFO -  Latest data for 0 tokens
+10:43:54 - INFO -  Got 0 updates from processor
+10:43:54 - INFO -  Latest data for 0 tokens
+10:43:54 - INFO -  Got 0 updates from processor
+10:43:54 - INFO -  Latest data for 0 tokens
+10:43:54 - INFO -  Got 0 updates from processor
+10:43:54 - INFO -  Latest data for 0 tokens
+10:43:54 - INFO -  Got 0 updates from processor
+10:43:54 - INFO -  Latest data for 0 tokens
+10:43:54 - INFO -  Got 0 updates from processor
+10:43:54 - INFO -  Latest data for 0 tokens
+10:43:54 - INFO -  Got 0 updates from processor
+10:43:54 - INFO -  Latest data for 0 tokens
+10:43:54 - INFO -  Got 0 updates from processor
+10:43:54 - INFO -  Latest data for 0 tokens
+10:43:54 - INFO -  Got 0 updates from processor
+10:43:54 - INFO -  Latest data for 0 tokens
+10:43:55 - INFO -  Got 0 updates from processor
+10:43:55 - INFO -  Latest data for 0 tokens
+10:43:55 - INFO -  Got 0 updates from processor
+10:43:55 - INFO -  Latest data for 0 tokens
+10:43:55 - INFO -  Got 0 updates from processor
+10:43:55 - INFO -  Latest data for 0 tokens
+10:43:55 - INFO -  Got 0 updates from processor
+10:43:55 - INFO -  Latest data for 0 tokens
+10:43:55 - INFO -  Got 0 updates from processor
+10:43:55 - INFO -  Latest data for 0 tokens
+10:43:55 - INFO -  Got 0 updates from processor
+10:43:55 - INFO -  Latest data for 0 tokens
+10:43:55 - INFO -  Got 0 updates from processor
+10:43:55 - INFO -  Latest data for 0 tokens
+10:43:55 - INFO -  Got 0 updates from processor
+10:43:55 - INFO -  Latest data for 0 tokens
+10:43:55 - INFO -  Got 0 updates from processor
+10:43:55 - INFO -  Latest data for 0 tokens
+10:43:55 - INFO -  Got 0 updates from processor
+10:43:55 - INFO -  Latest data for 0 tokens
+10:43:56 - INFO -  Got 0 updates from processor
+10:43:56 - INFO -  Latest data for 0 tokens
+10:43:56 - INFO -  Got 0 updates from processor
+10:43:56 - INFO -  Latest data for 0 tokens
+10:43:56 - INFO -  Got 0 updates from processor
+10:43:56 - INFO -  Latest data for 0 tokens
+10:43:56 - INFO -  Got 0 updates from processor
+10:43:56 - INFO -  Latest data for 0 tokens
+10:43:56 - INFO -  Got 0 updates from processor
+10:43:56 - INFO -  Latest data for 0 tokens
+10:43:56 - INFO -  Got 0 updates from processor
+10:43:56 - INFO -  Latest data for 0 tokens
+10:43:56 - INFO -  Got 0 updates from processor
+10:43:56 - INFO -  Latest data for 0 tokens
+10:43:56 - INFO -  Got 0 updates from processor
+10:43:56 - INFO -  Latest data for 0 tokens
+10:43:56 - INFO -  Got 0 updates from processor
+10:43:56 - INFO -  Latest data for 0 tokens
+10:43:57 - INFO -  Got 0 updates from processor
+10:43:57 - INFO -  Latest data for 0 tokens
+10:43:57 - INFO -  Got 0 updates from processor
+10:43:57 - INFO -  Latest data for 0 tokens
+10:43:57 - INFO -  Got 0 updates from processor
+10:43:57 - INFO -  Latest data for 0 tokens
+10:43:57 - INFO -  Got 0 updates from processor
+10:43:57 - INFO -  Latest data for 0 tokens
+10:43:57 - INFO -  Got 0 updates from processor
+10:43:57 - INFO -  Latest data for 0 tokens
+10:43:57 - INFO -  Got 0 updates from processor
+10:43:57 - INFO -  Latest data for 0 tokens
+10:43:57 - INFO -  Got 0 updates from processor
+10:43:57 - INFO -  Latest data for 0 tokens
+10:43:57 - INFO -  Got 0 updates from processor
+10:43:57 - INFO -  Latest data for 0 tokens
+10:43:57 - INFO -  Got 0 updates from processor
+10:43:57 - INFO -  Latest data for 0 tokens
+10:43:57 - INFO -  Got 0 updates from processor
+10:43:57 - INFO -  Latest data for 0 tokens
+10:43:58 - INFO -  Got 0 updates from processor
+10:43:58 - INFO -  Latest data for 0 tokens
+10:43:58 - INFO -  Got 0 updates from processor
+10:43:58 - INFO -  Latest data for 0 tokens
+10:43:58 - INFO -  Got 0 updates from processor
+10:43:58 - INFO -  Latest data for 0 tokens
+10:43:58 - INFO -  Got 0 updates from processor
+10:43:58 - INFO -  Latest data for 0 tokens
+10:43:58 - INFO -  Got 0 updates from processor
+10:43:58 - INFO -  Latest data for 0 tokens
+10:43:58 - INFO -  Got 0 updates from processor
+10:43:58 - INFO -  Latest data for 0 tokens
+10:43:58 - INFO -  Got 0 updates from processor
+10:43:58 - INFO -  Latest data for 0 tokens
+10:43:58 - INFO -  Got 0 updates from processor
+10:43:58 - INFO -  Latest data for 0 tokens
+10:43:58 - INFO -  Got 0 updates from processor
+10:43:58 - INFO -  Latest data for 0 tokens
+10:43:58 - INFO -  Got 0 updates from processor
+10:43:58 - INFO -  Latest data for 0 tokens
+10:43:59 - INFO -  Got 0 updates from processor
+10:43:59 - INFO -  Latest data for 0 tokens
+10:43:59 - INFO -  Got 0 updates from processor
+10:43:59 - INFO -  Latest data for 0 tokens
+10:43:59 - INFO -  Got 0 updates from processor
+10:43:59 - INFO -  Latest data for 0 tokens
+10:43:59 - INFO -  Got 0 updates from processor
+10:43:59 - INFO -  Latest data for 0 tokens
+10:43:59 - INFO -  Got 0 updates from processor
+10:43:59 - INFO -  Latest data for 0 tokens
+10:43:59 - INFO -  Got 0 updates from processor
+10:43:59 - INFO -  Latest data for 0 tokens
+10:43:59 - INFO -  Got 0 updates from processor
+10:43:59 - INFO -  Latest data for 0 tokens
+10:43:59 - INFO -  Got 0 updates from processor
+10:43:59 - INFO -  Latest data for 0 tokens
+10:43:59 - INFO -  Got 0 updates from processor
+10:43:59 - INFO -  Latest data for 0 tokens
+10:43:59 - INFO -  Got 0 updates from processor
+10:43:59 - INFO -  Latest data for 0 tokens
+10:44:00 - INFO -  Got 0 updates from processor
+10:44:00 - INFO -  Latest data for 0 tokens
+10:44:00 - INFO -  Got 0 updates from processor
+10:44:00 - INFO -  Latest data for 0 tokens
+10:44:00 - INFO -  Got 0 updates from processor
+10:44:00 - INFO -  Latest data for 0 tokens
+10:44:00 - INFO -  Got 0 updates from processor
+10:44:00 - INFO -  Latest data for 0 tokens
+10:44:00 - INFO -  Got 0 updates from processor
+10:44:00 - INFO -  Latest data for 0 tokens
+10:44:00 - INFO -  Got 0 updates from processor
+10:44:00 - INFO -  Latest data for 0 tokens
+10:44:00 - INFO -  Got 0 updates from processor
+10:44:00 - INFO -  Latest data for 0 tokens
+10:44:00 - INFO -  Got 0 updates from processor
+10:44:00 - INFO -  Latest data for 0 tokens
+10:44:00 - INFO -  Got 0 updates from processor
+10:44:00 - INFO -  Latest data for 0 tokens
+10:44:01 - INFO -  Got 0 updates from processor
+10:44:01 - INFO -  Latest data for 0 tokens
+10:44:01 - INFO -  Got 0 updates from processor
+10:44:01 - INFO -  Latest data for 0 tokens
+10:44:01 - INFO -  Got 0 updates from processor
+10:44:01 - INFO -  Latest data for 0 tokens
+10:44:01 - INFO -  Got 0 updates from processor
+10:44:01 - INFO -  Latest data for 0 tokens
+10:44:01 - INFO -  Got 0 updates from processor
+10:44:01 - INFO -  Latest data for 0 tokens
+10:44:01 - INFO -  Got 0 updates from processor
+10:44:01 - INFO -  Latest data for 0 tokens
+10:44:01 - INFO -  Got 0 updates from processor
+10:44:01 - INFO -  Latest data for 0 tokens
+10:44:01 - INFO -  Got 0 updates from processor
+10:44:01 - INFO -  Latest data for 0 tokens
+10:44:01 - INFO -  Got 0 updates from processor
+10:44:01 - INFO -  Latest data for 0 tokens
+10:44:01 - INFO -  Got 0 updates from processor
+10:44:01 - INFO -  Latest data for 0 tokens
+10:44:02 - INFO -  Got 0 updates from processor
+10:44:02 - INFO -  Latest data for 0 tokens
+10:44:02 - INFO -  Got 0 updates from processor
+10:44:02 - INFO -  Latest data for 0 tokens
+10:44:02 - INFO -  Got 0 updates from processor
+10:44:02 - INFO -  Latest data for 0 tokens
+10:44:02 - INFO -  Got 0 updates from processor
+10:44:02 - INFO -  Latest data for 0 tokens
+10:44:02 - INFO -  Got 0 updates from processor
+10:44:02 - INFO -  Latest data for 0 tokens
+10:44:02 - INFO -  Got 0 updates from processor
+10:44:02 - INFO -  Latest data for 0 tokens
+10:44:02 - INFO -  Got 0 updates from processor
+10:44:02 - INFO -  Latest data for 0 tokens
+10:44:02 - INFO -  Got 0 updates from processor
+10:44:02 - INFO -  Latest data for 0 tokens
+10:44:02 - INFO -  Got 0 updates from processor
+10:44:02 - INFO -  Latest data for 0 tokens
+10:44:03 - INFO -  Got 0 updates from processor
+10:44:03 - INFO -  Latest data for 0 tokens
+10:44:03 - INFO -  Got 0 updates from processor
+10:44:03 - INFO -  Latest data for 0 tokens
+10:44:03 - INFO -  Got 0 updates from processor
+10:44:03 - INFO -  Latest data for 0 tokens
+10:44:03 - INFO -  Got 0 updates from processor
+10:44:03 - INFO -  Latest data for 0 tokens
+10:44:03 - INFO -  Got 0 updates from processor
+10:44:03 - INFO -  Latest data for 0 tokens
+10:44:03 - INFO -  Got 0 updates from processor
+10:44:03 - INFO -  Latest data for 0 tokens
+10:44:03 - INFO -  Got 0 updates from processor
+10:44:03 - INFO -  Latest data for 0 tokens
+10:44:03 - INFO -  Got 0 updates from processor
+10:44:03 - INFO -  Latest data for 0 tokens
+10:44:03 - INFO -  Got 0 updates from processor
+10:44:03 - INFO -  Latest data for 0 tokens
+10:44:04 - INFO -  Got 0 updates from processor
+10:44:04 - INFO -  Latest data for 0 tokens
+10:44:04 - INFO -  Got 0 updates from processor
+10:44:04 - INFO -  Latest data for 0 tokens
+10:44:04 - INFO -  Got 0 updates from processor
+10:44:04 - INFO -  Latest data for 0 tokens
+10:44:04 - INFO -  Got 0 updates from processor
+10:44:04 - INFO -  Latest data for 0 tokens
+10:44:04 - INFO -  Got 0 updates from processor
+10:44:04 - INFO -  Latest data for 0 tokens
+10:44:04 - INFO -  Got 0 updates from processor
+10:44:04 - INFO -  Latest data for 0 tokens
+10:44:04 - INFO -  Got 0 updates from processor
+10:44:04 - INFO -  Latest data for 0 tokens
+10:44:04 - INFO -  Got 0 updates from processor
+10:44:04 - INFO -  Latest data for 0 tokens
+10:44:04 - INFO -  Got 0 updates from processor
+10:44:04 - INFO -  Latest data for 0 tokens
+10:44:04 - INFO -  Got 0 updates from processor
+10:44:04 - INFO -  Latest data for 0 tokens
+10:44:05 - INFO -  Got 0 updates from processor
+10:44:05 - INFO -  Latest data for 0 tokens
+10:44:05 - INFO -  Got 0 updates from processor
+10:44:05 - INFO -  Latest data for 0 tokens
+10:44:05 - INFO -  Got 0 updates from processor
+10:44:05 - INFO -  Latest data for 0 tokens
+10:44:05 - INFO -  Got 0 updates from processor
+10:44:05 - INFO -  Latest data for 0 tokens
+10:44:05 - INFO -  Got 0 updates from processor
+10:44:05 - INFO -  Latest data for 0 tokens
+10:44:05 - INFO -  Got 0 updates from processor
+10:44:05 - INFO -  Latest data for 0 tokens
+10:44:05 - INFO -  Got 0 updates from processor
+10:44:05 - INFO -  Latest data for 0 tokens
+10:44:05 - INFO -  Got 0 updates from processor
+10:44:05 - INFO -  Latest data for 0 tokens
+10:44:05 - INFO -  Got 0 updates from processor
+10:44:05 - INFO -  Latest data for 0 tokens
+10:44:05 - INFO -  Got 0 updates from processor
+10:44:05 - INFO -  Latest data for 0 tokens
+10:44:06 - INFO -  Got 0 updates from processor
+10:44:06 - INFO -  Latest data for 0 tokens
+10:44:06 - INFO -  Got 0 updates from processor
+10:44:06 - INFO -  Latest data for 0 tokens
+10:44:06 - INFO -  Got 0 updates from processor
+10:44:06 - INFO -  Latest data for 0 tokens
+10:44:06 - INFO - Stats - Total ticks: 0, Queue: 0, Active tokens: 0
+10:44:06 - INFO -  Got 0 updates from processor
+10:44:06 - INFO -  Latest data for 0 tokens
+10:44:06 - INFO -  Got 0 updates from processor
+10:44:06 - INFO -  Latest data for 0 tokens
+10:44:06 - INFO -  Got 0 updates from processor
+10:44:06 - INFO -  Latest data for 0 tokens
+10:44:06 - INFO -  Got 0 updates from processor
+10:44:06 - INFO -  Latest data for 0 tokens
+10:44:06 - INFO -  Got 0 updates from processor
+10:44:06 - INFO -  Latest data for 0 tokens
+10:44:06 - INFO -  Got 0 updates from processor
+10:44:06 - INFO -  Latest data for 0 tokens
+10:44:07 - INFO -  Got 0 updates from processor
+10:44:07 - INFO -  Latest data for 0 tokens
+10:44:07 - INFO -  Got 0 updates from processor
+10:44:07 - INFO -  Latest data for 0 tokens
+10:44:07 - INFO -  Got 0 updates from processor
+10:44:07 - INFO -  Latest data for 0 tokens
+10:44:07 - INFO -  Got 0 updates from processor
+10:44:07 - INFO -  Latest data for 0 tokens
+10:44:07 - INFO -  Got 0 updates from processor
+10:44:07 - INFO -  Latest data for 0 tokens
+10:44:07 - INFO -  Got 0 updates from processor
+10:44:07 - INFO -  Latest data for 0 tokens
+10:44:07 - INFO -  Got 0 updates from processor
+10:44:07 - INFO -  Latest data for 0 tokens
+10:44:07 - INFO -  Got 0 updates from processor
+10:44:07 - INFO -  Latest data for 0 tokens
+10:44:07 - INFO -  Got 0 updates from processor
+10:44:07 - INFO -  Latest data for 0 tokens
+10:44:07 - INFO -  Got 0 updates from processor
+10:44:08 - INFO -  Latest data for 0 tokens
+10:44:08 - INFO -  Got 0 updates from processor
+10:44:08 - INFO -  Latest data for 0 tokens
+10:44:08 - INFO -  Got 0 updates from processor
+10:44:08 - INFO -  Latest data for 0 tokens
+10:44:08 - INFO -  Got 0 updates from processor
+10:44:08 - INFO -  Latest data for 0 tokens
+10:44:08 - INFO -  Got 0 updates from processor
+10:44:08 - INFO -  Latest data for 0 tokens
+10:44:08 - INFO -  Got 0 updates from processor
+10:44:08 - INFO -  Latest data for 0 tokens
+10:44:08 - INFO -  Got 0 updates from processor
+10:44:08 - INFO -  Latest data for 0 tokens
+10:44:08 - INFO -  Got 0 updates from processor
+10:44:08 - INFO -  Latest data for 0 tokens
+10:44:08 - INFO -  Got 0 updates from processor
+10:44:08 - INFO -  Latest data for 0 tokens
+10:44:08 - INFO -  Got 0 updates from processor
+10:44:08 - INFO -  Latest data for 0 tokens
+10:44:09 - INFO -  Got 0 updates from processor
+10:44:09 - INFO -  Latest data for 0 tokens
+10:44:09 - INFO -  Got 0 updates from processor
+10:44:09 - INFO -  Latest data for 0 tokens
+10:44:09 - INFO -  Got 0 updates from processor
+10:44:09 - INFO -  Latest data for 0 tokens
+10:44:09 - INFO -  Got 0 updates from processor
+10:44:09 - INFO -  Latest data for 0 tokens
+10:44:09 - INFO -  Got 0 updates from processor
+10:44:09 - INFO -  Latest data for 0 tokens
+10:44:09 - INFO -  Got 0 updates from processor
+10:44:09 - INFO -  Latest data for 0 tokens
+10:44:09 - INFO -  Got 0 updates from processor
+10:44:09 - INFO -  Latest data for 0 tokens
+10:44:09 - INFO -  Got 0 updates from processor
+10:44:09 - INFO -  Latest data for 0 tokens
+10:44:09 - INFO -  Got 0 updates from processor
+10:44:09 - INFO -  Latest data for 0 tokens
+10:44:10 - INFO -  Got 0 updates from processor
+10:44:10 - INFO -  Latest data for 0 tokens
+10:44:10 - INFO -  Got 0 updates from processor
+10:44:10 - INFO -  Latest data for 0 tokens
+10:44:10 - INFO -  Got 0 updates from processor
+10:44:10 - INFO -  Latest data for 0 tokens
+10:44:10 - INFO -  Got 0 updates from processor
+10:44:10 - INFO -  Latest data for 0 tokens
+10:44:10 - INFO -  Got 0 updates from processor
+10:44:10 - INFO -  Latest data for 0 tokens
+10:44:10 - INFO -  Got 0 updates from processor
+10:44:10 - INFO -  Latest data for 0 tokens
+10:44:10 - INFO -  Got 0 updates from processor
+10:44:10 - INFO -  Latest data for 0 tokens
+10:44:10 - INFO -  Got 0 updates from processor
+10:44:10 - INFO -  Latest data for 0 tokens
+10:44:10 - INFO -  Got 0 updates from processor
+10:44:10 - INFO -  Latest data for 0 tokens
+10:44:10 - INFO -  Got 0 updates from processor
+10:44:10 - INFO -  Latest data for 0 tokens
+10:44:11 - INFO -  Got 0 updates from processor
+10:44:11 - INFO -  Latest data for 0 tokens
+10:44:11 - INFO -  Got 0 updates from processor
+10:44:11 - INFO -  Latest data for 0 tokens
+10:44:11 - INFO -  Got 0 updates from processor
+10:44:11 - INFO -  Latest data for 0 tokens
+10:44:11 - INFO -  Got 0 updates from processor
+10:44:11 - INFO -  Latest data for 0 tokens
+10:44:11 - INFO -  Got 0 updates from processor
+10:44:11 - INFO -  Latest data for 0 tokens
+10:44:11 - INFO -  Got 0 updates from processor
+10:44:11 - INFO -  Latest data for 0 tokens
+10:44:11 - INFO -  Got 0 updates from processor
+10:44:11 - INFO -  Latest data for 0 tokens
+10:44:11 - INFO -  Got 0 updates from processor
+10:44:11 - INFO -  Latest data for 0 tokens
+10:44:11 - INFO -  Got 0 updates from processor
+10:44:11 - INFO -  Latest data for 0 tokens
+10:44:11 - INFO -  Got 0 updates from processor
+10:44:11 - INFO -  Latest data for 0 tokens
+10:44:12 - INFO -  Got 0 updates from processor
+10:44:12 - INFO -  Latest data for 0 tokens
+10:44:12 - INFO -  Got 0 updates from processor
+10:44:12 - INFO -  Latest data for 0 tokens
+10:44:12 - INFO -  Got 0 updates from processor
+10:44:12 - INFO -  Latest data for 0 tokens
+10:44:12 - INFO -  Got 0 updates from processor
+10:44:12 - INFO -  Latest data for 0 tokens
+10:44:12 - INFO -  Got 0 updates from processor
+10:44:12 - INFO -  Latest data for 0 tokens
+10:44:12 - INFO -  Got 0 updates from processor
+10:44:12 - INFO -  Latest data for 0 tokens
+10:44:12 - INFO -  Got 0 updates from processor
+10:44:12 - INFO -  Latest data for 0 tokens
+10:44:12 - INFO -  Got 0 updates from processor
+10:44:12 - INFO -  Latest data for 0 tokens
+10:44:12 - INFO -  Got 0 updates from processor
+10:44:12 - INFO -  Latest data for 0 tokens
+10:44:12 - INFO -  Got 0 updates from processor
+10:44:12 - INFO -  Latest data for 0 tokens
+10:44:13 - INFO -  Got 0 updates from processor
+10:44:13 - INFO -  Latest data for 0 tokens
+10:44:13 - INFO -  Got 0 updates from processor
+10:44:13 - INFO -  Latest data for 0 tokens
+10:44:13 - INFO -  Got 0 updates from processor
+10:44:13 - INFO -  Latest data for 0 tokens
+10:44:13 - INFO -  Got 0 updates from processor
+10:44:13 - INFO -  Latest data for 0 tokens
+10:44:13 - INFO -  Got 0 updates from processor
+10:44:13 - INFO -  Latest data for 0 tokens
+10:44:13 - INFO -  Got 0 updates from processor
+10:44:13 - INFO -  Latest data for 0 tokens
+10:44:13 - INFO -  Got 0 updates from processor
+10:44:13 - INFO -  Latest data for 0 tokens
+10:44:13 - INFO -  Got 0 updates from processor
+10:44:13 - INFO -  Latest data for 0 tokens
+10:44:14 - INFO -  Got 0 updates from processor
+10:44:14 - INFO -  Latest data for 0 tokens
+10:44:14 - INFO -  Got 0 updates from processor
+10:44:14 - INFO -  Latest data for 0 tokens
+10:44:14 - INFO -  Got 0 updates from processor
+10:44:14 - INFO -  Latest data for 0 tokens
+10:44:14 - INFO -  Got 0 updates from processor
+10:44:14 - INFO -  Latest data for 0 tokens
+10:44:14 - INFO - ----------------------------------------
+10:44:14 - INFO -  Application Status:
+10:44:14 - INFO -    Active Tokens: 0
+10:44:14 - INFO -    Excel Rows: 0
+10:44:14 - INFO -    Total Ticks: 0
+10:44:14 - INFO -     Market: OPEN - 10:44:14
+10:44:14 - INFO -    API Calls: 0
+10:44:14 - INFO - ----------------------------------------
+10:44:14 - INFO -  Got 0 updates from processor
+10:44:14 - INFO -  Latest data for 0 tokens
+10:44:14 - INFO -  Got 0 updates from processor
+10:44:14 - INFO -  Latest data for 0 tokens
+10:44:14 - INFO -  Got 0 updates from processor
+10:44:14 - INFO -  Latest data for 0 tokens
+10:44:14 - INFO -  Got 0 updates from processor
+10:44:14 - INFO -  Latest data for 0 tokens
+10:44:14 - INFO -  Got 0 updates from processor
+10:44:14 - INFO -  Latest data for 0 tokens
+10:44:14 - INFO -  Got 0 updates from processor
+10:44:14 - INFO -  Latest data for 0 tokens

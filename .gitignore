@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+ECHO is off.
+# Excel files
+*.xlsx
+*.xls
+ECHO is off.
+# VS Code
+.vscode/
+ECHO is off.
+# Windows
+Thumbs.db
+desktop.ini
+ECHO is off.
+# Shortcuts
+*.lnk
+ECHO is off.
+# Git
+.git/
